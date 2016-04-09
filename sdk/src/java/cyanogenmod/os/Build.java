@@ -28,10 +28,10 @@ public class Build {
     public static final String UNKNOWN = "unknown";
 
     /** A build ID utilized to distinguish cyanogenmod versions */
-    public static final String CYANOGENMOD_VERSION = "ro.cm.version";
+    public static final String CYANOGENMOD_VERSION = getString("ro.cm.version");
 
     /** A build ID string meant for displaying to the user */
-    public static final String CYANOGENMOD_DISPLAY_VERSION = "ro.cm.display.version";
+    public static final String CYANOGENMOD_DISPLAY_VERSION = getString("ro.cm.display.version");
 
     private static final SparseArray<String> sdkMap;
     static
@@ -42,6 +42,7 @@ public class Build {
         sdkMap.put(CM_VERSION_CODES.CANTALOUPE, "Cantaloupe");
         sdkMap.put(CM_VERSION_CODES.DRAGON_FRUIT, "Dragon Fruit");
         sdkMap.put(CM_VERSION_CODES.ELDERBERRY, "Elderberry");
+        sdkMap.put(CM_VERSION_CODES.FIG, "Fig");
     }
 
     /** Various version strings. */
@@ -128,9 +129,31 @@ public class Build {
         public static final int DRAGON_FRUIT = 4;
 
         /**
-         * Future M Release - 2nd quarter 2016
+         * April 2016: The 5th iteration of the platform sdk for CyanogenMod
+         *
+         * <p>Applications targeting this or a later version will get access to these
+         * new features!</p>
+         * <li>Weather request api to fetch weather data from providers on the device
+         * {@link cyanogenmod.weather.CMWeatherManager}</li>
+         * <li>Weather provider api to provide weather data to any listener on the device
+         * {@link cyanogenmod.weatherservice.WeatherProviderService}</li>
+         * <li>Extended capabilities of the {@link cyanogenmod.externalviews.KeyguardExternalView}
+         * interfaces to provide immersive and interactive experiences on the lockscreen.</li>
+         * <li>Themes interfaces have found a new home in the cmsdk, thus we allow access
+         * to 3rd parties requesting theme changes on the platform via
+         * {@link cyanogenmod.themes.ThemeManager} and
+         * {@link cyanogenmod.themes.ThemeChangeRequest}</li>
+         * <li>Full access to the {@link cyanogenmod.providers.ThemesContract} and provider</li>
+         * <li>Parceling helper class {@link cyanogenmod.os.Concierge} to help with parcel
+         * headers and protocol revisions</li>
+         * </ul>
          */
         public static final int ELDERBERRY = 5;
+
+        /**
+         * Future Release - 3rd quarter 2016
+         */
+        public static final int FIG = 6;
     }
 
     /**
@@ -144,5 +167,9 @@ public class Build {
             return UNKNOWN;
         }
         return name;
+    }
+
+    private static String getString(String property) {
+        return SystemProperties.get(property, UNKNOWN);
     }
 }
