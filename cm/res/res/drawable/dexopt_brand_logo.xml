@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="60" android:drawable="@drawable/XPerience900089" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900090" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900091" />
+    <item android:duration="80" android:drawable="@drawable/XPerience900092" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900093" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900094" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900095" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900096" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900097" />
+    <item android:duration="80" android:drawable="@drawable/XPerience900098" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900099" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900100" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900101" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900102" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900103" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900104" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900105" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900106" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900107" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900108" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900109" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900110" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900111" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900112" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900113" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900114" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900115" />
+    <item android:duration="60" android:drawable="@drawable/XPerience900116" />
+</animation-list>
