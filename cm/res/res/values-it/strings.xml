@@ -38,7 +38,7 @@
   <string name="permdesc_modifyProfiles">Consenti ad un\'app di modificare i profili di sistema.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">utilizza framework hardware</string>
-  <string name="permdesc_useHardwareFramework">Consenti ad un\'app di accedere al framework hardware di CM.</string>
+  <string name="permdesc_useHardwareFramework">Consenti ad un\'app di accedere al framework hardware di XPe.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">modifica le sveglie</string>
   <string name="permdesc_write_alarms">Consenti ad un\'app di aggiungere, modificare o eliminare tutti i tuoi allarmi.</string>
@@ -49,11 +49,11 @@
   <string name="permlab_read_alarms">accesso avvisi programmati</string>
   <string name="permdesc_read_alarms">Consenti all\'app di leggere i tuoi avvisi programmati.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">modifica le impostazioni di sistema CM</string>
-  <string name="permdesc_writeSettings">Consenti ad un\'app di modificare le impostazioni di sistema CM.</string>
+  <string name="permlab_writeSettings">modifica le impostazioni di sistema XPe</string>
+  <string name="permdesc_writeSettings">Consenti ad un\'app di modificare le impostazioni di sistema XPe.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">modifica le impostazioni di sistema sicure CM</string>
-  <string name="permdesc_writeSecureSettings">Consenti ad un\'app di modificare le impostazioni di sistema sicure CM. Non per l\'uso di normali applicazioni.</string>
+  <string name="permlab_writeSecureSettings">modifica le impostazioni di sistema sicure XPe</string>
+  <string name="permdesc_writeSecureSettings">Consenti ad un\'app di modificare le impostazioni di sistema sicure XPe. Non per l\'uso di normali applicazioni.</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">gestione archivio persistente</string>
   <string name="permdesc_managePersistentStorage">Consenti ad un\'app di leggere o scrivere proprietà che possono persistere ad un ripristino di fabbrica.</string>
@@ -173,10 +173,10 @@
   <!-- LiveDisplay manager permission -->
   <string name="permlab_manageLiveDisplay">gestisci le impostazioni LiveDisplay</string>
   <string name="permdesc_manageLiveDisplay">Consenti ad un\'app di configurare impostazioni avanzate del display.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_observe_audio_sessions">osserva cambiamenti di sessioni audio</string>
   <string name="permdesc_observe_audio_sessions">Consenti ad un\'app di osservare la creazione e distruzione di flussi audio.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_manage_audio_sessions">gestisci cambiamenti di sessioni audio</string>
   <string name="permdesc_manage_audio_sessions">Consenti ad un\'app di inviare aggiornamenti del flusso audio.</string>
   <!-- QuickSettings: Themes tile -->

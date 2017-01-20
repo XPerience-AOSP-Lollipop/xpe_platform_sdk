@@ -38,7 +38,7 @@
   <string name="permdesc_modifyProfiles">Permite unei aplicații să modifice profilurile de sistem.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">folosește framework-ul hardware</string>
-  <string name="permdesc_useHardwareFramework">Permite unei aplicații să acceseze framework-ul CM hardware.</string>
+  <string name="permdesc_useHardwareFramework">Permite unei aplicații să acceseze framework-ul XPe hardware.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">schimbă direct alarme</string>
   <string name="permdesc_write_alarms">Permite unei aplicații să adauge, modifice sau să șteargă toate alarmele.</string>
@@ -49,9 +49,9 @@
   <string name="permlab_read_alarms">accesează alarme programate</string>
   <string name="permdesc_read_alarms">Permite unei aplicații să citească alarmele programate.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">modifică setările de sistem CM</string>
+  <string name="permlab_writeSettings">modifică setările de sistem XPe</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">modifică setările de siguranță sistem CM</string>
+  <string name="permlab_writeSecureSettings">modifică setările de siguranță sistem XPe</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">gestionează stocare persistentă</string>
   <string name="permdesc_managePersistentStorage">Permite unei aplicații să citească sau să scrie proprietăți ce se pot menține în urma unei reveniri la setările din fabrică.</string>
@@ -125,8 +125,8 @@
   <!-- DataUsageProvider read permission title -->
   <!-- DataUsageProvider read permission description -->
   <!-- LiveDisplay manager permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <!-- QuickSettings: Themes tile -->
   <!-- Privacy Guard -->
   <!-- Permissions used by remote preferences -->

@@ -38,7 +38,7 @@
   <string name="permdesc_modifyProfiles">Sallii sovelluksen muokata järjestelmäprofiileja.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">käytä laitteiston kehystä</string>
-  <string name="permdesc_useHardwareFramework">Sallii sovelluksen pääsyn CM-laitteiston kehykseen.</string>
+  <string name="permdesc_useHardwareFramework">Sallii sovelluksen pääsyn XPe-laitteiston kehykseen.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">muuta hälytyksiä suoraan</string>
   <string name="permdesc_write_alarms">Sallii sovelluksen lisätä, muokata tai poistaa kaikki hälytyksesi.</string>
@@ -49,11 +49,11 @@
   <string name="permlab_read_alarms">käytä ajoitettua hälytystä</string>
   <string name="permdesc_read_alarms">Sallii sovelluksen lukea ajoitettuja hälytyksiä.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">muokkaa CM-järjestelmän asetuksia</string>
-  <string name="permdesc_writeSettings">Sallii sovelluksen muokata CM-järjestelmän asetuksia.</string>
+  <string name="permlab_writeSettings">muokkaa XPe-järjestelmän asetuksia</string>
+  <string name="permdesc_writeSettings">Sallii sovelluksen muokata XPe-järjestelmän asetuksia.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">muokkaa CM-järjestelmän turvallisuusasetuksia</string>
-  <string name="permdesc_writeSecureSettings">Sallii sovelluksen muokata CM-järjestelmän turvallisuusasetuksia. Ei normaalin sovelluksen käytettäväksi.</string>
+  <string name="permlab_writeSecureSettings">muokkaa XPe-järjestelmän turvallisuusasetuksia</string>
+  <string name="permdesc_writeSecureSettings">Sallii sovelluksen muokata XPe-järjestelmän turvallisuusasetuksia. Ei normaalin sovelluksen käytettäväksi.</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">hallitse pysyvää tallennustilaa</string>
   <string name="permdesc_managePersistentStorage">Sallii sovelluksen lukea tai kirjoittaa ominaisuuksia jotka voivat säilyä tehdasasetusten palautuksen jälkeen.</string>
@@ -173,10 +173,10 @@
   <!-- LiveDisplay manager permission -->
   <string name="permlab_manageLiveDisplay">hallitse LiveDisplay-asetuksia</string>
   <string name="permdesc_manageLiveDisplay">Sallii sovelluksen määrittää kehittyneitä näytön asetuksia.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_observe_audio_sessions">tutki ääni-istunnon muutoksia</string>
   <string name="permdesc_observe_audio_sessions">Sallii sovelluksen tarkastella milloin ääntä luodaan ja tuhotaan.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_manage_audio_sessions">hallitse ääni-istunnon muutoksia</string>
   <string name="permdesc_manage_audio_sessions">Sallii sovelluksen lähettää äänisyötteen päivityksiä.</string>
   <!-- QuickSettings: Themes tile -->

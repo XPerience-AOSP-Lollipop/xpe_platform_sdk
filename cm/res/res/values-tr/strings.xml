@@ -38,7 +38,7 @@
   <string name="permdesc_modifyProfiles">Uygulamaya sistem profillerini değiştirme izni verir.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">donanım altyapısını kullan</string>
-  <string name="permdesc_useHardwareFramework">Uygulamanın CM donanım altyapısına erişimine izin verir.</string>
+  <string name="permdesc_useHardwareFramework">Uygulamanın XPe donanım altyapısına erişimine izin verir.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">doğrudan alarmları değiştir</string>
   <string name="permdesc_write_alarms">Uygulamalarınıza alarm ekleme, değiştirme ya da tümünü silme izni verir.</string>
@@ -49,11 +49,11 @@
   <string name="permlab_read_alarms">programlı alarmlara eriş</string>
   <string name="permdesc_read_alarms">Uygulamalara planlanan alarmları okuma izni verir.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">CM sistem ayarlarını değiştir</string>
-  <string name="permdesc_writeSettings">Uygulamalara CM sistem ayarlarını değiştirme izni verir.</string>
+  <string name="permlab_writeSettings">XPe sistem ayarlarını değiştir</string>
+  <string name="permdesc_writeSettings">Uygulamalara XPe sistem ayarlarını değiştirme izni verir.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">CM güvenli sistem ayarlarını değiştir</string>
-  <string name="permdesc_writeSecureSettings">Uygulamalara CM güvenli sistem ayarlarını değiştirme izni verir. Normal uygulamalar için değildir.</string>
+  <string name="permlab_writeSecureSettings">XPe güvenli sistem ayarlarını değiştir</string>
+  <string name="permdesc_writeSecureSettings">Uygulamalara XPe güvenli sistem ayarlarını değiştirme izni verir. Normal uygulamalar için değildir.</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">kalıcı depolama alanını yönet</string>
   <string name="permdesc_managePersistentStorage">Uygulamalara fabrika ayarlarına dönüldüğünde kalıcı özellikleri okuma ve yazma izni verir.</string>
@@ -170,10 +170,10 @@ uyguladığınız temayı değiştirmesine izin verir.</string>
   <!-- LiveDisplay manager permission -->
   <string name="permlab_manageLiveDisplay">LiveDisplay ayarlarını yönet</string>
   <string name="permdesc_manageLiveDisplay">Uygulamalara gelişmiş ekran ayarlarını düzenleme izni verir.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_observe_audio_sessions">ses oturum değişikliklerini gözlemle</string>
   <string name="permdesc_observe_audio_sessions">Bir uygulamanın, ses akışlarınının oluşturulma ve yok edilmesinde gözlem yapmasına izin verir.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <!-- QuickSettings: Themes tile -->
   <string name="qs_themes_label">Temalar</string>
   <string name="qs_themes_content_description">Temanızı özelleştirin</string>

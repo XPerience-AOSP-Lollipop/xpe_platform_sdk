@@ -38,7 +38,7 @@
   <string name="permdesc_modifyProfiles">Allows an app to modify system profiles.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">use hardware framework</string>
-  <string name="permdesc_useHardwareFramework">Allows an app access to the CM hardware framework.</string>
+  <string name="permdesc_useHardwareFramework">Allows an app access to the XPe hardware framework.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">directly change alarms</string>
   <string name="permdesc_write_alarms">Allows an app to add, modify or delete all of your alarms.</string>
@@ -49,11 +49,11 @@
   <string name="permlab_read_alarms">access scheduled alarms</string>
   <string name="permdesc_read_alarms">Allows an app to read your scheduled alarms.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">modify CM system settings</string>
-  <string name="permdesc_writeSettings">Allows an app to modify CM system settings.</string>
+  <string name="permlab_writeSettings">modify XPe system settings</string>
+  <string name="permdesc_writeSettings">Allows an app to modify XPe system settings.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">modify CM secure system settings</string>
-  <string name="permdesc_writeSecureSettings">Allows an app to modify CM secure system settings. Not for use by normal apps.</string>
+  <string name="permlab_writeSecureSettings">modify XPe secure system settings</string>
+  <string name="permdesc_writeSecureSettings">Allows an app to modify XPe secure system settings. Not for use by normal apps.</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">manage persistent storage</string>
   <string name="permdesc_managePersistentStorage">Allows an app to read or write properties which may persist thrοugh a factory reset.</string>
@@ -126,8 +126,8 @@
   <!-- DataUsageProvider read permission title -->
   <!-- DataUsageProvider read permission description -->
   <!-- LiveDisplay manager permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <!-- QuickSettings: Themes tile -->
   <!-- Privacy Guard -->
   <!-- Permissions used by remote preferences -->

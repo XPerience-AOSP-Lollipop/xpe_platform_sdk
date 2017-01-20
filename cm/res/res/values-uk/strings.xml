@@ -46,8 +46,8 @@
   <string name="permlab_read_alarms">доступ до запланованих будильників</string>
   <string name="permdesc_read_alarms">Дозволяє програмі читати заплановані сигнали будильника.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">змінювати налаштування CM</string>
-  <string name="permdesc_writeSettings">Дозволяє додатку змінювати системні налаштування CM.</string>
+  <string name="permlab_writeSettings">змінювати налаштування XPe</string>
+  <string name="permdesc_writeSettings">Дозволяє додатку змінювати системні налаштування XPe.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
   <string name="permlab_writeSecureSettings">змінювати налаштування безпеки</string>
   <string name="permdesc_writeSecureSettings">Дозволяє додатку змінювати системні налаштування безпеки. Непотрібно звичайним додаткам.</string>
@@ -121,8 +121,8 @@
   <!-- DataUsageProvider read permission title -->
   <!-- DataUsageProvider read permission description -->
   <!-- LiveDisplay manager permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <!-- QuickSettings: Themes tile -->
   <!-- Privacy Guard -->
   <!-- Permissions used by remote preferences -->

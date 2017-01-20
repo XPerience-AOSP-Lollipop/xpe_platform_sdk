@@ -38,7 +38,7 @@
   <string name="permdesc_modifyProfiles">Дозволи апликацији да мења системске профиле.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">користи хардверски оквир</string>
-  <string name="permdesc_useHardwareFramework">Дозвољава апликацији приступ CM хардверском оквиру.</string>
+  <string name="permdesc_useHardwareFramework">Дозвољава апликацији приступ XPe хардверском оквиру.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">директна промена аларма</string>
   <string name="permdesc_write_alarms">Дозвола апликацији да дода, промени или обрише све твоје аларме.</string>
@@ -49,11 +49,11 @@
   <string name="permlab_read_alarms">приступ заказаним алармима</string>
   <string name="permdesc_read_alarms">Дозвола апликацији да чита заказане аларме.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">промени CM системска подешавања</string>
-  <string name="permdesc_writeSettings">Омогућава апликацији да промени CM системска подешавања.</string>
+  <string name="permlab_writeSettings">промени XPe системска подешавања</string>
+  <string name="permdesc_writeSettings">Омогућава апликацији да промени XPe системска подешавања.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">промени CM системска подешавања сигурности</string>
-  <string name="permdesc_writeSecureSettings">Омогући апликацији да промени CM системска подешавања сигурности. Није за коришћење код нормалних апликација.</string>
+  <string name="permlab_writeSecureSettings">промени XPe системска подешавања сигурности</string>
+  <string name="permdesc_writeSecureSettings">Омогући апликацији да промени XPe системска подешавања сигурности. Није за коришћење код нормалних апликација.</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">Управљај сталним складиштем</string>
   <string name="permdesc_managePersistentStorage">омогући апликацији да чита и пише својства која остају после фабричког ресета.</string>
@@ -168,10 +168,10 @@
   <!-- LiveDisplay manager permission -->
   <string name="permlab_manageLiveDisplay">Управљај подешавањем Активног екрана</string>
   <string name="permdesc_manageLiveDisplay">Омогућује апликацији да подеси подешавања напредног приказа.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_observe_audio_sessions">посматрај промене аудио сесије</string>
   <string name="permdesc_observe_audio_sessions">Дозвољава апликацији да посматра ток аудиа док је креиран и прекинут.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_manage_audio_sessions">управљај променама аудио сесије</string>
   <string name="permdesc_manage_audio_sessions">Дозвола апликацији да шаље ажурирања тока аудио записа.</string>
   <!-- QuickSettings: Themes tile -->

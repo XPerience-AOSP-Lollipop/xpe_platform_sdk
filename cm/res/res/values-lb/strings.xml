@@ -34,7 +34,7 @@
   <!-- Labels for the MODIFY_PROFILES permission. -->
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">Hardware-Framework benotzen</string>
-  <string name="permdesc_useHardwareFramework">Erlaabt der App, den Accès op den CM-Hardware-Framework.</string>
+  <string name="permdesc_useHardwareFramework">Erlaabt der App, den Accès op den XPe-Hardware-Framework.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <!-- Labels for the MANAGE_ALARMS permission. -->
   <!-- Labels for the READ_ALARMS permission. -->
@@ -102,8 +102,8 @@
   <!-- DataUsageProvider read permission title -->
   <!-- DataUsageProvider read permission description -->
   <!-- LiveDisplay manager permission -->
-  <!-- CMAudioService - observe session changes permission -->
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <!-- QuickSettings: Themes tile -->
   <!-- Privacy Guard -->
   <!-- Permissions used by remote preferences -->

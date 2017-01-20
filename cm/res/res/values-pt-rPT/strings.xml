@@ -38,7 +38,7 @@
   <string name="permdesc_modifyProfiles">Permite que uma aplicação modifique os perfis do sistema.</string>
   <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
   <string name="permlab_useHardwareFramework">utilizar a framework de hardware</string>
-  <string name="permdesc_useHardwareFramework">Permite que uma aplicação aceda à framework de hardware CM.</string>
+  <string name="permdesc_useHardwareFramework">Permite que uma aplicação aceda à framework de hardware XPe.</string>
   <!-- Labels for the WRITE_ALARMS permission. -->
   <string name="permlab_write_alarms">alterar diretamente os alarmes</string>
   <string name="permdesc_write_alarms">Permite que uma aplicação adicione, modifique ou elimine todos os seus alarmes.</string>
@@ -49,11 +49,11 @@
   <string name="permlab_read_alarms">aceder aos alarmes agendados</string>
   <string name="permdesc_read_alarms">Permite que uma aplicação leia os seus alarmes agendados.</string>
   <!-- Labels for the WRITE_SETTINGS permission -->
-  <string name="permlab_writeSettings">modificar as definições de sistema CM</string>
-  <string name="permdesc_writeSettings">Permite que uma aplicação modifique as definições de sistema CM.</string>
+  <string name="permlab_writeSettings">modificar as definições de sistema XPe</string>
+  <string name="permdesc_writeSettings">Permite que uma aplicação modifique as definições de sistema XPe.</string>
   <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
-  <string name="permlab_writeSecureSettings">modificar as definições de sistema seguro CM</string>
-  <string name="permdesc_writeSecureSettings">Permite que uma aplicação modifique as definições de sistema seguro CM. Nunca deverá ser necessário para aplicações normais.</string>
+  <string name="permlab_writeSecureSettings">modificar as definições de sistema seguro XPe</string>
+  <string name="permdesc_writeSecureSettings">Permite que uma aplicação modifique as definições de sistema seguro XPe. Nunca deverá ser necessário para aplicações normais.</string>
   <!-- Labels for the MANAGE_PERSISTENT_STORAGE permission. -->
   <string name="permlab_managePersistentStorage">gerir o armazenamento persistente</string>
   <string name="permdesc_managePersistentStorage">Permite que uma aplicação leia ou escreva propriedades que possam persistir mesmo após a reposição dos dados de fábrica.</string>
@@ -174,10 +174,10 @@
   <!-- LiveDisplay manager permission -->
   <string name="permlab_manageLiveDisplay">gerir as definições do LiveDisplay</string>
   <string name="permdesc_manageLiveDisplay">Permite que uma aplicação configure definições avançadas do ecrã.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_observe_audio_sessions">observar as alterações da sessão de som</string>
   <string name="permdesc_observe_audio_sessions">Permite que uma aplicação observe a criação e destruição de fluxos de som.</string>
-  <!-- CMAudioService - observe session changes permission -->
+  <!-- XPeAudioService - observe session changes permission -->
   <string name="permlab_manage_audio_sessions">gerir sessões de alterações de som</string>
   <string name="permdesc_manage_audio_sessions">Permite que uma aplicação envie atualizações de fluxo de áudio.</string>
   <!-- QuickSettings: Themes tile -->
